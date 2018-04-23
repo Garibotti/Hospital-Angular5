@@ -1,0 +1,11 @@
+<div class="jumbotron">
+  <tabset>
+    <tab heading="Listagem" id="tab1">Prescrições
+		  <ul>
+		    <li *ngFor="let pre of prescricoes">{{pre.paciente}}</li>
+		  </ul>
+    </tab>
+
+    <tab heading="Edição">Prescrições</tab>
+  </tabset>
+</div>
